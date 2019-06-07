@@ -20,5 +20,9 @@ const Tab = ({ tab, selectTabHandler, selectedTab }) => {
 
 // Make sure you include PropTypes on your props.
 
-
+Tab.propTypes = {
+  tab: PropTypes.string,
+  selectTabHandler: PropTypes.func,
+  selectedTab: PropTypes.string
+}
 export default Tab

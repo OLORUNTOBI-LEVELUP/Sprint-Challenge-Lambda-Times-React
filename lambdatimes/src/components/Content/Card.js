@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+
 const Card = ({ card }) => {
   return (
     <div className="card">
